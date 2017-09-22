@@ -1,0 +1,3 @@
+$scope.alumnos = [,,,,]; Array
+
+$scope.alumnos.push(); Add Item

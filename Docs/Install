@@ -1,0 +1,38 @@
+>> Node JS
+
+1. Instalar ejecutable
+2. Chequear version:
+	node --version
+	npm --version
+
+>> Servidor Express JS
+1. npm install -g express-generator
+2. Generar servidor
+	Ir a un directorio
+	express miServidorNuevo
+	en public van las paginas
+3. Instalar otras cosas:
+	npm install
+4. Ejecutar servidor: 
+	npm start	
+5. localhost:3000
+
+>> Grunt
+1. npm install -g grunt-cli
+2. Crear directorio
+3. Crear package.json
+
+4. Situarse en directorio
+5. npm install --save-dev
+6. grunt --version
+7. En el proyecto se genera carpeta node_modules
+8. npm install -g grunt-init
+
+9. Crear archivo gruntfile.js donde esta el package.json
+10. Poner archivos a revisar/concatenar/minimizar en la misma carpeta
+11. grunt
+
+>> Revisar, Mezclar y Minimizar
+jshint: revisa
+concat: concatena
+uglify> minimiza

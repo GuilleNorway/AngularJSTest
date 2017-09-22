@@ -1,0 +1,19 @@
+<body ng-app></body> Aplicacion AJS
+
+<body ng-init="Creadores= 'GuilleAvi'"> Inicializa variables
+
+{{Creadores}} Muestra valor de variable
+
+{{2014-2000}} Permite mostrar resultado
+
+<body ng-controller="AlumnosController"> Relaciona controller
+
+<div ng-repeat="alumno in alumnos"> loop
+
+
+<div ng-repeat="alumno in alumnos | order by 'nombre'"> order by
+
+<button ng-click="Save()"> button
+
+<button ng-hide="formVisibility">
+<div ng-show="formVisibility"> Ocultar/Mostrar formVisibility=true/false
