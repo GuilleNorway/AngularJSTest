@@ -1,0 +1,6 @@
+Actualizar Version Local (Bajar):
+git pull origin master
+
+Deshacer cambios:
+git stash
+
