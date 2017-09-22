@@ -36,3 +36,13 @@
 jshint: revisa
 concat: concatena
 uglify> minimiza
+
+>> Yo
+1. Instalar
+	npm install -g yo
+	npm install -g generator-angular
+2. Crear directorio y posicionarse
+3. yo angular
+4. Compass (F), Bootstrap (T), Modules (all)
+5. grunt serve
+
