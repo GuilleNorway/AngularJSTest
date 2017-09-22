@@ -1,7 +1,7 @@
 <div class="main.js">
   <h2>Mis Tareas</h2>
 
-  <form role="form" ng-submit="addTarea()">
+ <!--  <form role="form" ng-submit="addTarea()">
     <div class="row">
       <div class="input-group">
         <input type="text" ng-model="tarea" placeholder="¿Qué tarea quieres guardar?" class="form-control">
@@ -23,5 +23,9 @@
         </button>
       </span>
     </p>
-  </div>
+  </div>-->
+    <p class="form-group" ng-repeat="tarea in tareas">
+      <input type="text" ng-model="tarea" class="form-control">
+    </p>
+  
 </div>

@@ -17,3 +17,7 @@
 
 <button ng-hide="formVisibility">
 <div ng-show="formVisibility"> Ocultar/Mostrar formVisibility=true/false
+
+<input ng-model="tarea"> Bind field with a variable
+
+<  ui-sortable  > permite mover elementos con el mouse

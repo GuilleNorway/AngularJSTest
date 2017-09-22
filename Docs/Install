@@ -50,3 +50,8 @@ uglify> minimiza
 7. npm install -g bower
 
 
+>> Instalar Modulos (necesarios)
+1. bower list (paquetes ya instalados)
+2. bower search angular-ui-sortable
+3. bower install --save angular-ui-sortable jquery-ui
+4. Agregar en el app.js --> 'ui.sortable'
